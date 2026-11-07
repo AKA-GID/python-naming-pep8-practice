@@ -1,19 +1,19 @@
 # Задание 3. Переименуйте переменные по смыслу и правилам PEP 8.
 # Не меняйте условия, формулы и порядок вычислений.
 
-MIN_AGE = 14
-MAX_AGE=18
+min_age = 14
+max_age=18
 
-u = "Misha"
-ageNow = 16
-score1 = 87
-score2=92
+name = "Misha"
+age = 16
+first_score = 87
+second_score = 92
 
-averageScore=(score1+score2)/2
-canJoin = ageNow >= MIN_AGE and ageNow <= MAX_AGE
-passed = averageScore >= 80
+average = (first_score+second_score)/2
+can_join = age >= min_age and age <= max_age
+passed = average >= 80
 
-print("Участник:",u)
-print("Средний балл:",averageScore)
-print("Подходит по возрасту:",canJoin)
+print("Участник:",name)
+print("Средний балл:",average)
+print("Подходит по возрасту:",can_join)
 print("Прошёл отбор:",passed)

@@ -4,7 +4,7 @@
 name = "Аня"
 age = 16
 age_fre = 3
-c = a + b
+c = age + age_fre
 
-print("Имя:", n)
+print("Имя:", name)
 print("Возраст через три года:", c)
