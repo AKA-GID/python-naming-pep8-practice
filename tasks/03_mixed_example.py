@@ -2,18 +2,18 @@
 # Не меняйте условия, формулы и порядок вычислений.
 
 MIN_AGE = 14
-MAX_AGE=18
+MAX_AGE = 18
 
-u = "Misha"
-ageNow = 16
-score1 = 87
-score2=92
+NAME = "Misha"
+AGE_NOW = 16
+SCORE_1 = 87
+SCORE_2 = 92
 
-averageScore=(score1+score2)/2
-canJoin = ageNow >= MIN_AGE and ageNow <= MAX_AGE
-passed = averageScore >= 80
+average_score = (SCORE_1 + SCORE_2) / 2
+can_join = AGE_NOW >= MIN_AGE and AGE_NOW <= MAX_AGE
+passed = average_score >= 80
 
-print("Участник:",u)
-print("Средний балл:",averageScore)
-print("Подходит по возрасту:",canJoin)
-print("Прошёл отбор:",passed)
+print("Участник:", NAME)
+print("Средний балл:", average_score)
+print("Подходит по возрасту:", can_join)
+print("Прошёл отбор:", passed)
