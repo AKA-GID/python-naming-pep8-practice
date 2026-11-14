@@ -1,14 +1,14 @@
 
 TAX_RATE = 0.2
 
-productName = "Книга"
-product_price=500
-countOfProducts = 2
+PRODUCT_NAME = "Книга"
+PRODUCT_PRICE = 500
+COUNT_OF_PRODUCTS = 2
 
-totalPrice=product_price*countOfProducts
-tax=totalPrice*TAX_RATE
-finalPrice=totalPrice+tax
+total_price = PRODUCT_PRICE * COUNT_OF_PRODUCTS
+tax = total_price * TAX_RATE
+final_price = total_price + tax
 
-print("Товар:",productName)
-print("Количество:",countOfProducts)
-print("Итоговая стоимость:",finalPrice)
+print("Товар:", PRODUCT_NAME)
+print("Количество:", COUNT_OF_PRODUCTS)
+print("Итоговая стоимость:", final_price)
